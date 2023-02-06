@@ -1,0 +1,56 @@
+.d-block {
+    display: block;
+}
+.d-inline-block {
+    display: inline-block;
+}
+.d-none {
+    display: none;
+}
+.d-flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.d-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+.content-center {
+    justify-content: center;
+}
+.item-center {
+    align-items: center;
+}
+.item-flex-end {
+    align-items: flex-end;
+}
+.self-center {
+    align-self: center;
+}
+.self-flex-start {
+    align-self: flex-start;
+}
+.content-space-between {
+    justify-content: space-between;
+}
+.content-space-around {
+    justify-content: space-around;
+}
+.posit-relative {
+    position: relative;
+}
+.posit-absolute {
+    position: absolute;
+}
+.posit-sticky {
+    position: sticky;
+}
+.posit-fixed {
+    position: fixed;
+}
+.img-fit-cover {
+    object-fit: cover;
+}
+.b-sizing-boder-box {
+    box-sizing: border-box;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style footer/main.css">
+    <link rel="stylesheet" href="./style/style menu/index.css">
+    <link rel="stylesheet" href="./style/style body/stylebody.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <ul class="exo-menu d-flex-row content-space-between item-center">
+            <li class="col1-5 b-sizing-boder-box height-100 d-flex-row content-center"><a href="./index.html">Trang Chủ</a></li>
+            <li class="drop-down col1-5 b-sizing-boder-box height-100 d-flex-row content-center"><a href="#">MENU</a>
+                <ul class="drop-down-ul animated fadeIn col2-12">
+                    <li class="flyout-right col12-12">
+                        <a href="#">Đồ Uống Nóng</a><!--Flyout Right-->
+                        <ul class="animated fadeIn">
+                            <li><a href="#">Cà phê</a></li>
+                            <li><a href="#">Trà</a></li>
+                            <li><a href="#">Trái Cây </a></li>
+                        </ul>
+                    </li>
+                    <li class="flyout-right">
+                        <a href="#">Đồ Uống Lạnh</a><!--Flyout Left-->
+                        <ul class="animated fadeIn">
+                            <li><a href="#">Cà phê</a></li>
+                            <li><a href="#">Trà</a></li>
+                            <li><a href="#">Trái Cây</a></li>
+                        </ul>			
+                    </li>
+                </ul>
+            </li>
+            <img src="./image/img footer/logo.png" class="col1-5 b-sizing-boder-box d-flex-row content-center img-fit-cover">
+            <li class="col1-5 b-sizing-boder-box height-100 d-flex-row content-center"><a href="./gioithieu.html" target="_blank">GIỚI THIỆU</a>
+            </li>
+            <li class="col1-5 b-sizing-boder-box height-100 d-flex-row content-center"><a href="#">ĐĂNG KÝ</a>
+            </li>	
+        </ul>
+    </header>
+    <!-- body -->
+    <div class="slideshow-container">
+        <div class="mySlides fade col12-12 height-100">
+          <img src="./image/img body/banner3.webp" class="img-fit-cover col12-12 height-100">
+        </div>
+        <div class="mySlides fade col12-12 height-100">
+          <img src="./image/img body/banner3.jpg" class="img-fit-cover col12-12 height-100">
+        </div>
+        <div class="mySlides fade col12-12 height-100">
+          <img src="./image/img body/banner2.jpg" class="img-fit-cover col12-12 height-100">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+    <div class="body d-flex-col col12-12 item-center">
+        <a href="#" class="about-us col9-12 d-flex-row content-center item-center">
+            <img src="./image/img body/about1.jpg" alt="" class="img-fit-cover col12-12">
+            <div class="over-about col12-12 height-100 d-flex-row content-center item-center">
+            </div>
+            <p>Câu chuyện của chúng tôi</p>
+        </a>
+        <div class="d-flex-row col9-12">
+            <a href="#" class="col6-12 height-100">
+                <img src="./image/img body/coffe new.jpg" class=" height-100 col12-12 img-fit-cover" alt="">
+            </a>
+            <a href="#" class="col6-12 height-100">
+                <img src="./image/img body/4.jpg" class=" height-100 col12-12 img-fit-cover" alt="">
+            </a>
+        </div>
+        <a href="#" class="col9-12 d-flex-row content-center">
+            <img src="./image/img body/3.jpg" alt="" class="col12-12">
+        </a>
+    </div>
+    <!-- footer -->
+    <hr>
+    <div class="footer d-flex-row content-space-around">
+        <div class="footer-connect col6-12 content-space-around d-flex-col">
+            <h3 class="text-upper text-left color-red">kênh kết nối</h3>
+            <div class="d-flex-row item-center">
+                <a href="https://www.facebook.com/MindX.School" target="_blank">
+                   <img class="img-logo" src="./image/img footer/logofb.png" alt="">
+                </a>
+                <a href="https://www.youtube.com/channel/UCkuxJcFwR-iFgThUPKwM_JA/featured" target="_blank">
+                    <img class="img-logo"  src="./image/img footer/logoyoutube.png" alt="">
+                 </a>
+            </div>
+            <img class="img-fit-cover col4-12" src="./image/img footer/brand.png" alt="brand">
+        </div>
+        <div class="footer-update col6-12 d-flex-col item-flex-end content-space-between ">
+            <h3 class="text-upper text-left color-red">luôn cập nhật</h3>
+            <p>Về các tin tức đó đây, sản phẩm mới</p>
+            <div class="footer-update-email d-flex-row">
+                <input type="email" placeholder="Email">
+                <button class="text-upper color-white bg-red">đăng ký</button>
+            </div>
+            <p><i>Chúng tôi tôn trọng quyền riêng tư của bạn</i></p>
+        </div>
+    </div>
+    <div class="footer-end d-flex-col content-space-between item-center">
+        <p>Công ty cổ phần ILIAT toàn cầu</p>
+        <p>Mã số thuế: 0107371744</p>
+        <p>Địa chỉ: Tầng 5, số 71 Nguyễn Chí Thanh, phường Láng Hạ, quận Đống Đa, thành phố Hà Nội, Việt Nam</p>
+    </div>
+    <script src="./JS/jsbody.js"></script>
+</body>
+</html>

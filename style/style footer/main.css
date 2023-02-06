@@ -1,0 +1,104 @@
+@import url("./display.css");
+@import url("./measure.css");
+@import url("./text.css");
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.footer {
+    margin: 0px 100px;
+}
+.color-red {
+    color: #c00000;
+}
+.color-white {
+    color: white;
+}
+.bg-red {
+    background-color: #c00000;
+}
+.img-logo {
+    height: 35px;
+    width: auto;
+}
+hr {
+    border-top: 1px solid #c00000;
+}
+.footer {
+    margin-top: 10px;
+}
+.footer div div a {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.footer-update p:nth-child(4) {
+    color: #b4b9bc;
+}
+.footer-update-email input {
+    height: 30px;
+    border: 1px solid rgb(219, 219, 219);
+    padding-left: 5px;
+    color: #b4b9bc;
+}
+.footer-update-email input:focus {
+    border: 1px solid #c00000;
+    color: #c00000;
+}
+.footer-update-email input::placeholder {
+    color: #b4b9bc;
+}
+.footer-update-email input:focus::placeholder {
+    color: transparent;
+}
+.footer-update-email input:focus-visible {
+    outline: none;
+}
+.footer-update-email button {
+    line-height: 30px;
+    width: 100px;
+    text-align: center;
+    border: none;
+}
+.footer-update-email button:hover {
+    cursor: pointer;
+}
+.footer-end {
+    background-color: #c00000;
+    color: white;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 20px 100px;
+    margin-top: 10px;
+}
+    .footer-end p {
+        font-size: 14px;
+    }
+.body {
+    padding: 20px 50px 20px 50px;
+}
+.about-us {
+    position: relative;
+    transition-duration: 5s;
+    cursor: pointer;
+}
+.about-us .over-about {
+    background-color: #c00000;
+    opacity: 0.6;
+    position: absolute;
+    cursor: pointer;
+}
+.about-us > p{
+    line-height: 30px;
+    background-color: white;
+    color: #c00000;
+    position: absolute;
+    padding: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.about-us:hover {
+    cursor: pointer;
+}
+.about-us:hover .over-about {
+    display: none;
+}
